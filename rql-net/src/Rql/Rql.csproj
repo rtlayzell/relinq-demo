@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Rql.NET</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Reegan Layzell</Authors>
+    <Company />
+    <Product>Rql.NET</Product>
+    <Description>An implementation of the Resource Query Language for .NET, includes support for, serializing/deserializing query urls, generating Resource Querys via LINQ and more.</Description>
+    <Copyright>2017</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Rql.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Remotion.Linq" Version="2.1.2" />
+  </ItemGroup>
+
+</Project>

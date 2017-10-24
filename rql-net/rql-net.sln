@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rql", "src\Rql\Rql.csproj", "{A9AC2B00-E50D-4BD6-A9D5-3A9FE1D44743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rql.Tests", "tests\Rql.Tests\Rql.Tests.csproj", "{F8995A1D-4578-4248-A1FA-915B84647C0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9AC2B00-E50D-4BD6-A9D5-3A9FE1D44743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AC2B00-E50D-4BD6-A9D5-3A9FE1D44743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AC2B00-E50D-4BD6-A9D5-3A9FE1D44743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AC2B00-E50D-4BD6-A9D5-3A9FE1D44743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8995A1D-4578-4248-A1FA-915B84647C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8995A1D-4578-4248-A1FA-915B84647C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8995A1D-4578-4248-A1FA-915B84647C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8995A1D-4578-4248-A1FA-915B84647C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18509CBE-38D2-43BF-AF3C-F362971A18A1}
+	EndGlobalSection
+EndGlobal
